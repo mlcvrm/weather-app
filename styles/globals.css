@@ -19,6 +19,12 @@ body {
   padding: 40px 150px;
 }
 
+.location {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: end;
+}
+
 .form {
   display: flex;
   justify-content: center;
@@ -130,7 +136,7 @@ body {
 
 @media screen and (max-width: 700px) {
   .container {
-    padding: 20px 80px;
+    padding: 20px 60px;
   }
 
   .input {
@@ -142,13 +148,20 @@ body {
     height: 30px;
   }
 
+  .timeRangeSection {
+    width: 100%;
+    display: flex;
+    color: inherit;
+    margin-bottom: 45px;
+  }
+
   .timeRangeButton {
     font-size: 18px;
     padding: 10px 5px;
   }
 
   .svgContainer {
-    width: 550px;
+    width: 300px;
     margin-bottom: 50px;
   }
   .weatherForecast {

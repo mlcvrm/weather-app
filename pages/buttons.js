@@ -1,8 +1,7 @@
 import React from "react";
 
 const TimeRangeButtons = ({ selectedTimeRange, setSelectedTimeRange }) => {
-  const buttonClass = (selected) => `timeRangeButton ${selected && "active"}`;
-
+  const buttonClass = (selected) => `timeRangeButton ${selected && "active"}`; 
   return (
     <div className="timeRangeSection">
       <button
@@ -21,7 +20,7 @@ const TimeRangeButtons = ({ selectedTimeRange, setSelectedTimeRange }) => {
         className={buttonClass(selectedTimeRange === "nextDays")}
         onClick={() => setSelectedTimeRange("nextDays")}
       >
-        Next Days
+        5 Days
       </button>
     </div>
   );
